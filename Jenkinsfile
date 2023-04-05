@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('error') {
+    stage('构建') {
       steps {
         sh 'mvn -v'
         sh 'mvn clean install -X'
