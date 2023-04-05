@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('error') {
       steps {
-        sh 'mvn clean install'
+        sh 'mvn clean install -X'
       }
     }
 
